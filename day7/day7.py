@@ -33,4 +33,6 @@ while len(colors) != old_length:
                 parents.add(parent)
     colors = colors.union(parents)
 
+colors.remove('shiny gold')
+
 print(len(colors))

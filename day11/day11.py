@@ -60,6 +60,7 @@ def compare_states(state: list, new_state: list) -> bool:
             return False
     return equal
 
+
 while True:
     calculate_new_state()
     if compare_states(new_state, state):

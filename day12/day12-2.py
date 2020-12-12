@@ -29,4 +29,3 @@ for line in instructions:
 
     print(instruction, distance, position, position_wp)
 print(abs(position[0]) + abs(position[1]))
-print(-12 % 5)

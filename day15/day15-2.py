@@ -23,5 +23,5 @@ for i in range(len(numbers)-1, target):
             previous_nums[new_number] = (0, 0, 0)
         previous_nums[new_number] = (previous_nums[new_number][0] + 1, current_index, previous_nums[new_number][1])
         numbers.append(new_number)
-print(numbers[:10])
+
 print(numbers[target - 1])

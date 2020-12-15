@@ -1,4 +1,4 @@
-with open('testinput.txt') as file:
+with open('input.txt') as file:
     input_text = file.read().splitlines()[0]
 
 numbers = [int(x) for x in input_text.split(',')]
